@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_UN-fYFqLEe2ev4jOSi0vLA" targetNamespace="http://tns.tibco.com/bw/composite/emp_organization_details" name="emp_organization_details" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_UV4eMFqLEe2ev4jOSi0vLA" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UV_L4FqLEe2ev4jOSi0vLA" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UWEEYFqLEe2ev4jOSi0vLA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UWJj8FqLEe2ev4jOSi0vLA" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UWN1YFqLEe2ev4jOSi0vLA" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UWSt4FqLEe2ev4jOSi0vLA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UWXmYFqLEe2ev4jOSi0vLA" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UWdF8FqLEe2ev4jOSi0vLA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UWh-cFqLEe2ev4jOSi0vLA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_c5feAFqLEe2ev4jOSi0vLA" name="Componentemp_organization_details" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_c5feAVqLEe2ev4jOSi0vLA" processName="emp_organization_details.emp_organization_details"/>
+  </sca:component>
+</sca:composite>
